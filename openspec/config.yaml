@@ -1,0 +1,34 @@
+schema: spec-driven
+
+context: |
+  Language: zh-CN
+  All artifacts must be written in zh-CN.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  项目：婚纱照原始素材与成品图归档（私人）。
+  结构：01-合照 / 02-旅行 / 03-美食 / 04-生活 / 05-节日 / 06-风景 / 99-临时 / 故事胶片 / 订婚 / slideshow。
+  关系：不含代码；照片经 muyaya 前端上传进相册后端，本仓库不是运行时依赖。
+  注意：私人素材，不得放进公开仓库或公开链接。
+  文档：本 openspec 即全部文档。
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
